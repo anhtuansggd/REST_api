@@ -1,5 +1,11 @@
 //sudo service mongod restart
 //npm run devStart
+/*
+sudo chown -R mongodb:mongodb /var/lib/mongodb
+sudo chown mongodb:mongodb /tmp/mongodb-27017.sock    
+sudo service mongod restart
+*/
+
 require('dotenv').config()
 const express = require('express')
 const app = express()
